@@ -100,3 +100,4 @@ This project is a Udemy-like platform built using a microservices architecture. 
 3. **Access the API Gateway**:
    - API Gateway: http://localhost:3000
 # Udemy
+# Udemy

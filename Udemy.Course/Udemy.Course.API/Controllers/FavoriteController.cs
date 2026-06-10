@@ -22,6 +22,7 @@ public class FavoriteController(IFavoriteService favoriteService) : ControllerBa
         var favorites = await _favoriteService.GetFavoritesByUserIdAsync(userId.Value, filter);
 
         return TypedResults.Ok(favorites);
+
     }
 
     // add favorite course
